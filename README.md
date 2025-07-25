@@ -259,7 +259,7 @@ ggplot(customer_counts, aes(x = "", y = n, fill = user_type)) +
   theme_void()
 ```
 
-![](cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](docs/cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 ``` r
 # Agrupar os dados por tipo de cliente e tipo de bicicleta, contando as corridas
@@ -281,7 +281,7 @@ ggplot(rides_summary, aes(x = fct_reorder(bike_type, total_rides),
   theme_minimal()
 ```
 
-![](cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](docs/cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 ``` r
 # Agrupar dados por tipo de cliente, tipo de bicicleta, semana e hora, contando as viagens
@@ -338,7 +338,7 @@ ggplot(weekly_summary) +
   theme_minimal()
 ```
 
-![](cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](docs/cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
 ``` r
 # Definindo a paleta personalizada com azul celeste, azul egípicio e amarelo fogo
@@ -363,7 +363,7 @@ ggplot(seasonal_trips, aes(x = season, y = trip_count, fill = season)) +
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-![](cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](docs/cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
 ``` r
 # Agrupar corridas por dia da semana e tipo de cliente, contando o número de viagens
@@ -386,7 +386,7 @@ ggplot(trips_by_day_customer, aes(x = weekday, y = trip_count, fill = user_type)
         plot.title = element_text(hjust = 0.5)) 
 ```
 
-![](cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](docs/cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
 ``` r
 # Gráfico de barras mostrando a contagem de viagens por hora do dia e tipo de cliente
@@ -404,7 +404,7 @@ ggplot(weekly_summary) +
         plot.title = element_text(hjust = 0.5))
 ```
 
-![](cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](docs/cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 ``` r
 # Identificar as 20 estações de partida mais frequentes
@@ -430,7 +430,7 @@ ggplot(filtered_trips) +
   theme_minimal()
 ```
 
-![](cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](docs/cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
 
 ``` r
 # Agrupar dados por tipo de cliente, tipo de bicicleta, semana e hora de início, 
@@ -470,7 +470,7 @@ ggplot(stats_summary, aes(x = avg_distance, y = avg_duration, color = user_type)
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+![](docs/cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
 
 ``` r
 # Definindo a paleta personalizada com azul egípicio, amarelo fogo e azul celeste
@@ -491,7 +491,7 @@ ggplot(stats_summary, aes(x = avg_distance, y = avg_duration, color = bike_type)
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
+![](docs/cyclistic_bike_share_report_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
 
 # Recomendações
 
