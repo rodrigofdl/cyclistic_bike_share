@@ -4,11 +4,13 @@ Bicicletas Compartilhadas
 Rodrigo Felisberto
 2024-09-14
 
-**Contato:**
+#### Contato:
 
 Email: <rodrigo.fdlira@gmail.com>  
 LinkedIn:
 [linkedin.com/in/rodrigofdl/](https://www.linkedin.com/in/rodrigofdl/)
+
+#### Link para a apresentação: [docs.google.com/presentation/](https://docs.google.com/presentation/d/1i6rm3QB1NWk5uYFbeHk0YwfRxYb5F9u2alDmMcpg-l0/edit?usp=sharing)
 
 # Contexto
 
